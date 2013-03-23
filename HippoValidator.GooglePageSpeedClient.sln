@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HippoValidator.GooglePageSpeedClient.Tests", "HippoValidator.GooglePageSpeedClient.Tests\HippoValidator.GooglePageSpeedClient.Tests.csproj", "{D20D6331-C228-4BFF-9BF9-7E3BF2D45202}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HippoValidator.GooglePageSpeedClient.Console", "HippoValidator.GooglePageSpeedClient.Console\HippoValidator.GooglePageSpeedClient.Console.csproj", "{17BB0D8D-F9A6-4914-9231-55000BD342E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D20D6331-C228-4BFF-9BF9-7E3BF2D45202}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D20D6331-C228-4BFF-9BF9-7E3BF2D45202}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D20D6331-C228-4BFF-9BF9-7E3BF2D45202}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D20D6331-C228-4BFF-9BF9-7E3BF2D45202}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17BB0D8D-F9A6-4914-9231-55000BD342E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17BB0D8D-F9A6-4914-9231-55000BD342E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17BB0D8D-F9A6-4914-9231-55000BD342E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17BB0D8D-F9A6-4914-9231-55000BD342E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

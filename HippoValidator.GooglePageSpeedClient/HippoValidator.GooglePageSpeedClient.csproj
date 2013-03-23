@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{660816BC-B9BA-4223-8962-B9DBCFFCE9DD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HippoValidator.GooglePageSpeedClient</RootNamespace>
+    <AssemblyName>HippoValidator.GooglePageSpeedClient</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>packages\Newtonsoft.Json.4.5.11\lib\net40\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Arg.cs" />
+    <Compile Include="AvoidBadRequests.cs" />
+    <Compile Include="AvoidCharsetInMetaTag.cs" />
+    <Compile Include="AvoidCssImport.cs" />
+    <Compile Include="AvoidExcessSerialization.cs" />
+    <Compile Include="AvoidLandingPageRedirects.cs" />
+    <Compile Include="AvoidLongRunningScripts.cs" />
+    <Compile Include="DeferParsingJavaScript.cs" />
+    <Compile Include="EliminateUnnecessaryReflows.cs" />
+    <Compile Include="EnableGzipCompression.cs" />
+    <Compile Include="FormattedResults.cs" />
+    <Compile Include="GooglePageSpeedValidator.cs" />
+    <Compile Include="Header.cs" />
+    <Compile Include="IGooglePageSpeedValidator.cs" />
+    <Compile Include="InlineSmallCss.cs" />
+    <Compile Include="InlineSmallJavaScript.cs" />
+    <Compile Include="JsonClassHelper.cs" />
+    <Compile Include="LeverageBrowserCaching.cs" />
+    <Compile Include="MinifyCss.cs" />
+    <Compile Include="MinifyHtml.cs" />
+    <Compile Include="MinifyJavaScript.cs" />
+    <Compile Include="MinimizeRedirects.cs" />
+    <Compile Include="MinimizeRequestSize.cs" />
+    <Compile Include="OptimizeImages.cs" />
+    <Compile Include="OptimizeTheOrderOfStylesAndScripts.cs" />
+    <Compile Include="PageStats.cs" />
+    <Compile Include="PreferAsyncResources.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PutCssInTheDocumentHead.cs" />
+    <Compile Include="RemoveQueryStringsFromStaticResources.cs" />
+    <Compile Include="Result.cs" />
+    <Compile Include="RuleBase.cs" />
+    <Compile Include="RuleResults.cs" />
+    <Compile Include="RuleWithUrlsBase.cs" />
+    <Compile Include="ServeResourcesFromAConsistentUrl.cs" />
+    <Compile Include="ServerResponseTime.cs" />
+    <Compile Include="ServeScaledImages.cs" />
+    <Compile Include="SpecifyACacheValidator.cs" />
+    <Compile Include="SpecifyAVaryAcceptEncodingHeader.cs" />
+    <Compile Include="SpecifyCharsetEarly.cs" />
+    <Compile Include="SpecifyImageDimensions.cs" />
+    <Compile Include="SpriteImages.cs" />
+    <Compile Include="Url.cs" />
+    <Compile Include="UrlBlock.cs" />
+    <Compile Include="ValidationResult.cs" />
+    <Compile Include="Version.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
