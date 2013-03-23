@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{767CE2A6-59E1-4F7D-919C-31BED1D57604}</ProjectGuid>
+    <ProjectGuid>{D20D6331-C228-4BFF-9BF9-7E3BF2D45202}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>HippoValidator.GooglePageSpeedClient.Tests</RootNamespace>

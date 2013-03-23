@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HippoValidator.GooglePageSp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HippoValidator.GooglePageSpeedClient.Console", "HippoValidator.GooglePageSpeedClient.Console\HippoValidator.GooglePageSpeedClient.Console.csproj", "{17BB0D8D-F9A6-4914-9231-55000BD342E3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HippoValidator.GooglePageSpeedClient", "HippoValidator.GooglePageSpeedClient\HippoValidator.GooglePageSpeedClient.csproj", "{660816BC-B9BA-4223-8962-B9DBCFFCE9DD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,10 @@ Global
 		{17BB0D8D-F9A6-4914-9231-55000BD342E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17BB0D8D-F9A6-4914-9231-55000BD342E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17BB0D8D-F9A6-4914-9231-55000BD342E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{660816BC-B9BA-4223-8962-B9DBCFFCE9DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{660816BC-B9BA-4223-8962-B9DBCFFCE9DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{660816BC-B9BA-4223-8962-B9DBCFFCE9DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{660816BC-B9BA-4223-8962-B9DBCFFCE9DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
