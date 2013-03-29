@@ -1,0 +1,18 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <version>$version$</version>
+    <authors>HippoValidator</authors>
+    <owners />
+    <dependencies />
+    <id>HippoValidator.GooglePageSpeedClient</id>
+    <title>HippoValidator.GooglePageSpeedClient</title>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>.NET client for Google Page Speed.</description>
+    <projectUrl>https://github.com/HippoValidator/GooglePageSpeedClient</projectUrl>
+  </metadata>
+  <files>
+    <file src="bin\$Configuration$\HippoValidator.GooglePageSpeedClient.dll" target="lib\net40\HippoValidator.GooglePageSpeedClient.dll" />
+    <file src="bin\$Configuration$\HippoValidator.GooglePageSpeedClient.pdb" target="lib\net40\HippoValidator.GooglePageSpeedClient.pdb" />
+  </files>
+</package>
